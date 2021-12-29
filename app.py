@@ -13,7 +13,6 @@ from keras.preprocessing import image
 
 from flask import Flask, redirect, url_for, request, render_template
 from werkzeug.utils import secure_filename
-from gevent.wsgi import WSGIServer
 
 
 app = Flask(__name__)
